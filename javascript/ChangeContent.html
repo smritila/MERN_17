@@ -1,0 +1,83 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="h1">Hi my name is Rahul Dravid</h1>
+    <button onclick="change()">Change Name</button>
+    <script>
+      function change() {
+        let myele = document.getElementById("h1");
+        myele.innerHTML = "Hi my name is Sachin";
+      }
+    </script>
+  </body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>I have clicked <span id="count">0</span>times</h1>
+    <button onclick="increment()">Increment</button>
+    <button onclick="decrement()">Decrement</button>
+
+    <script>
+      let countEle = document.getElementById("count");
+      let clicks = 0;
+      function increment() {
+        clicks++;
+        countEle.innerHTML = clicks;
+      }
+
+      function decrement() {
+        clicks--;
+        countEle.innerHTML = clicks;
+      }
+    </script>
+  </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>I have clicked <span id="count">0</span> times</h1>
+    <button onclick="increment()">Increment</button>
+    <button onclick="decrement()">Decrement</button>
+    <button onclick="save()">Save</button>
+    <p id="saved">Previous count: 0</p>
+
+    <script>
+      let countEle = document.getElementById("count");
+      let savedEle = document.getElementById("saved");
+      let clicks = 0;
+      let lastSaved = 0;
+
+      function increment() {
+        clicks++;
+        countEle.innerHTML = clicks;
+      }
+
+      function decrement() {
+        clicks--;
+        countEle.innerHTML = clicks;
+      }
+
+      function save() {
+        lastSaved = clicks;
+        savedEle.innerHTML = "Previous count: " + lastSaved;
+      }
+    </script>
+  </body>
+</html>

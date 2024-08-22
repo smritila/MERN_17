@@ -1,0 +1,33 @@
+classes and objects
+class is a blue print of an object . It provides state and attribute for an object.
+object carries the state and attribute provided by the class.
+it occupies space . hence it is called real time entity.
+
+objects- are defined using 
+1. new keyword
+2. object literal
+3. object constructor
+
+new keyword-it creates an empty space for the object.
+it refers the object space to the object reference variable.
+sytax to create an object- 
+let Var_name = new ClassName();
+Constructor- It loads all the properties into the object space created by the new keyword .
+Assigns the values to the properties.
+
+
+Brower object model and document object model
+BOM -stands for Browser object model- It provides certain properties which are used to interact with the browser. 
+
+Features- 1.  window object- it represents the current working window of the browser.
+ 2. It provides certain functions to interact with the current window.
+ 3. key functions are - window.alert();
+ window.prompt();
+
+ DOM- stands for document object model. 
+ it represents the current html document.that is displayed on the browser,
+ it represents the html in the form of tree called as DOM tree.
+ it provides certain topics and functions to interact with the current html document.
+ example- document.getElementById();
+ document.getElementsByclassName();
+ document.querySelector();
