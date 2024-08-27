@@ -31,3 +31,6 @@ Features- 1.  window object- it represents the current working window of the bro
  example- document.getElementById();
  document.getElementsByclassName();
  document.querySelector();
+ 
+ DOM tree-
+
