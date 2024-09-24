@@ -34,3 +34,31 @@ Features- 1.  window object- it represents the current working window of the bro
  
  DOM tree-
 
+  javascript- It is a light weight interpreted and dynamic programming language.
+  used for web development.
+
+ dynaimic programming language means we need not specify the data type of a variable explicitly.
+ In languages such as java we need to specify explicitly. 
+
+where as in javascript the data type of the variable depends on the value that is stored.
+javascript runs on the browser making it a client side programming language.
+Every browser will have a js engine to execute javascript code.
+ex- chrome will have v8 Engine, spider monkey, firefox , js core.
+
+Eg- Chrome= v8,
+   firefox = spidermonkey
+   safari = jscore
+
+   ECMA Script- It is a scripting lamguage specification standardize by ECMA international.
+  it's serve as a foundation for javascript, it defines the syntax semantics and co features of the language.   
+
+  ES Version -6
+  introduced significant features like classes , modules arrow function, promises and destructuring.
+  
+  variables- variables are used to store  data, in js we use 3 keywords to create variables var, let, and const.
+  this can be redeclare and reassigned. They are function scope meaning it can be accesed anywhere within the function(if declared outside a function they would be global scope)
+
+  let- They can not be redeclared but can be reassigned. 
+  They are block scope that is accessable only inside the specified block.
+
+  const-they can not be redeclared not reassigned. they are block scope like let.
