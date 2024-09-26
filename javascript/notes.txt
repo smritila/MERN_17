@@ -62,3 +62,38 @@ Eg- Chrome= v8,
   They are block scope that is accessable only inside the specified block.
 
   const-they can not be redeclared not reassigned. they are block scope like let.
+
+
+
+
+  // create a arrow function which returns product of two numbers
+  // create  a function expression which returns the remainder of a number when divided by 10.
+
+  let product = (a,b) => {
+   return a*b;
+  };
+  let p= product (4,5);
+  console.log(p);
+
+  let  divide = function (a,b =10){
+   return a % b;
+  };
+  let d = divide(158);
+  console.log(d);
+
+
+
+
+
+
+  scope of a variable-
+  global scope- 
+  1. variable declared outside any function  belongs to the global scope. it is accessible anywhere inside the code.
+  2. variable declared using var get attached to the window object.
+
+  function scope: It is also known as local scope. 
+  variables declared inside a function are scoped only to that function and can only be accessed inside it.
+
+  block scope- this variables are declared inside a block and are limited only to that block.
+  lexical scope  also called as closures.
+  functions in javascript are lixically scoped meaning they can access variables from their parent scope.this is used in closures where an inner function has access to variables from its outer function.
