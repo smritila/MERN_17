@@ -97,3 +97,36 @@ Eg- Chrome= v8,
   block scope- this variables are declared inside a block and are limited only to that block.
   lexical scope  also called as closures.
   functions in javascript are lixically scoped meaning they can access variables from their parent scope.this is used in closures where an inner function has access to variables from its outer function.
+
+
+closure- when a function is defined inside another function it closes over  variables in its outer scope that is even if the outer functions finishes execution (mentioning return keyword)
+the inner function still has access to the variables of outer function.
+usecases-
+1.data encapsulation- 
+2. function factory
+asynchronous callbacks.
+
+
+create nested functions add and substract where inner function subtracts 10 from the sum.
+write a function that multiplies two numbers and gives the remainder of the result divided by 5
+
+  function factory
+closures can be used to create multiple functions with shared behaviours but customized data.
+
+
+
+// implement closures where an outer function returns an innerfunc and the inner function return another innerfunction.
+
+//outer -> childfunc1 - > childfunc2
+
+
+
+objects- an object is a collection of key value pairs , key is unique and value vcan be anything such as string, number, object, function etc.
+they behave as real time entities meaning they occupy space.
+object creation using object literals.
+
+1. assign an object to a variable. 
+2.  Object.create()- creates a new object using a prototype.
+3.  using new keyword - using constructors , class , new keyword to create objects.
+4. Looping through objects can be done using  i>for... in loop
+ii> Object.keys() iii> Object.Values() 

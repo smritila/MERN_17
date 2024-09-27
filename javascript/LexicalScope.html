@@ -1,0 +1,55 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //lexical scope of a variable
+      //closure
+      function outerFunc() {
+        //nested functions
+        let outerVar = 15;
+        function innerFunc() {
+          let innerVar = 20;
+          console.log("Outer variable inside inner function()", outerVar);
+        }
+        return innerFunc;
+      }
+      let inFunc = outerFunc();
+      inFunc();
+    </script>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //lexical scope of a variable
+      //closure
+      function function1() {
+        //nested functions
+        let outerVar = 15;
+        function function2() {
+          let innerVar = 20;
+          console.log("Outer variable inside" + "inner function()", outerVar);
+        }
+        return function2;
+      }
+      let inFunc = function1();
+      inFunc();
+    </script>
+  </body>
+</html>
+
+function multiplyClosure(num1) { return function(num2) { let product = num1 *
+num2; let remainder = product % 5; return remainder; }; } // Example usage: let
+multiplyBy6 = multiplyClosure(6); console.log(multiplyBy6(4)); // Output: 4
