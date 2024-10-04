@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function function1() {
+        // Outer function scope
+        let outerVar = 15;
+
+        function function2() {
+          // Middle function scope
+          let middleVar = 20;
+          console.log("Outer variable inside middle function:", outerVar);
+
+          function function3() {
+            // Inner function scope
+            let innerVar = 25;
+            console.log("Outer variable inside inner function:", outerVar);
+            console.log("Middle variable inside inner function:", middleVar);
+            console.log("Inner variable inside inner function:", innerVar);
+          }
+
+          return function3; // Return the innermost function
+        }
+
+        return function2; // Return the middle function
+      }
+
+      // Example usage:
+      let middleFunc = function1(); // Returns function2
+      let innerFunc = middleFunc(); // Returns function3
+      innerFunc(); // Executes function3
+    </script>
+  </body>
+</html>

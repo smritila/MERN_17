@@ -130,3 +130,26 @@ object creation using object literals.
 3.  using new keyword - using constructors , class , new keyword to create objects.
 4. Looping through objects can be done using  i>for... in loop
 ii> Object.keys() iii> Object.Values() 
+
+
+Assignment-difference between 
+
+Objects.freez()
+
+Objects.freez()
+this function will not allow modifying objects attributes or add new attributes for the object.
+
+write a note on object.seal()- 
+
+study
+
+object destructuring- 
+It is a feature that allows to extract properties from the objects and assign to variables in a readable manner.
+The variables names must be same as the property names of the object.
+
+updating values using destructuring is done as  
+const {name:"Alice in technologies" } = company;
+
+
+
+closure and lexical scope.
