@@ -150,6 +150,14 @@ The variables names must be same as the property names of the object.
 updating values using destructuring is done as  
 const {name:"Alice in technologies" } = company;
 
-
-
 closure and lexical scope.
+arrays= they are collection of multiple types of data.
+in javascript arrays can store multiple types of data that is  string, number, object.
+
+arrays function- 
+push- adds elements to the end of the array
+pop-remove elements from the end of the array.
+unshift- add elements to the beginning of the array.
+shift- removes the first element from the array.
+splice- adds or remove or replace from a specific index.
+slice- extract a portion of the array into a new array.
