@@ -161,3 +161,26 @@ unshift- add elements to the beginning of the array.
 shift- removes the first element from the array.
 splice- adds or remove or replace from a specific index.
 slice- extract a portion of the array into a new array.
+
+
+PROJECT SLIDE PRESENTATION -
+
+1. INTRODUCTION ABOUT CSS AND html
+2. WHY WE NEED WEB TECH?
+3. fRONT end
+4. fULL STACK.
+5. RESPONSIVE DESIGN.
+
+
+18TH AND 19TH october- project presentation.
+
+
+
+document.createElement()-creates a new html element  which later needs to be appended to the parent. example- 
+<!--document.createElement("div")
+creating a new div
+-->
+
+<!--document.appendChild()-->
+
+appends a node as the last child of the parent node.
