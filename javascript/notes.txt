@@ -184,3 +184,44 @@ creating a new div
 <!--document.appendChild()-->
 
 appends a node as the last child of the parent node.
+
+
+assignment- add an event listener  where on clicking a button an image appears on the document in use createElement(img)
+
+set attribute and get attribute.
+
+given an array of objects where arr = [
+  {
+    name: "Sachin"
+    age: 50
+  },
+  { name:"virat",
+    age:30
+
+
+
+  },
+
+  {
+    name: "Dhoni",
+    age:40
+  }
+]
+
+
+
+write a js function which displays the object data in the form of table.
+
+
+
+
+javascript is a single threaded programming language which means it can execute only one operation at a time.
+This leads to two types of execution.
+1. synchronous programming
+2. asynchronous programming
+synchronous operations- 
+ Tasks are executed one after the other.Each operation must wait for the operation(previous) to be executed | completed.
+  This can lead to  delays if a task is taking much time.
+  key characteristics-
+  1. Blocking execution  i.e long running operations like  network request, file reading will block the subsequent code.
+  2. code is executed sequentially  in order that it appears.

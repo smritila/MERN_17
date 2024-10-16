@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array Methods</title>
+  </head>
+  <body>
+    <h1>Array Methods</h1>
+    <script>
+      let arr = ["Apple", "Banana", "Oranges"];
+      console.log(arr);
+      //  add a element at the end of the array
+      arr.push("Strawberry");
+      console.log(arr);
+      // to add an element at the beginning of the array
+      arr.unshift("Watermelon");
+      console.log(arr);
+      // to remove the last element in the array
+      arr.pop();
+      console.log(arr);
+
+      // to remove the first element in the array
+      arr.shift();
+      console.log(arr);
+      //replace banana with avocado
+      arr.splice("start index", "End index", "new value");
+      arr.splice(1, 1, "avocado");
+      console.log(arr);
+      //apple,pineapple,watermelon,oranges--- trying divide the array into parts
+      let basket1 = [arr[0], arr[1]];
+      console.log(basket1);
+      let basket2 = [arr[2], arr[3]];
+      console.log(basket2);
+      //.^ not professional way of doing it..
+      //use slice  function to separate the array
+      // arr.slice("start index","end index-not considered");
+      console.log("Good way of seperating the array");
+      basket1 = arr.slice(0, 2);
+      console.log(basket1);
+      basket2 = arr.slice(2, 4);
+      console.log(basket2);
+    </script>
+  </body>
+</html>
