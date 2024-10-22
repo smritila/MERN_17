@@ -225,3 +225,12 @@ synchronous operations-
   key characteristics-
   1. Blocking execution  i.e long running operations like  network request, file reading will block the subsequent code.
   2. code is executed sequentially  in order that it appears.
+
+
+
+  promise chaining and promise-
+  JSON- it stands for javascript object notation. It is used to represent 
+  javascript object in a string format. 
+  It is useful for data inter operability. Objects can not be transferred form one end point to the other.
+  to convert object into json we use json.stringify()
+  and to convert json to object we use json.parse()

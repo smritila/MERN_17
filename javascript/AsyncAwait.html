@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Two keywords Async and Await</h1>
+    <p>
+      1.Async : makes a function return a promise <br />
+      2.Await: make a function wait until the promise gets resolved <br />
+      3. Introduced in ES8(2017)
+    </p>
+    <script>
+      async function myFunction() {
+        return 100;
+      }
+      //   function myFunction() {
+      //     return 100;
+      //   }
+      let result = myFunction();
+      document.write("Function is returning: " + result + "<br>");
+      result
+        .then((res) => {
+          document.write("returned value is:" + res + "<br>");
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+    </script>
+  </body>
+</html>
