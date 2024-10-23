@@ -5,7 +5,7 @@
 
 }
   */
-
+export {};
 function add(a: number, b: number): number {
   let r = a + b;
   return r;
@@ -30,7 +30,7 @@ console.log(result2);
    function body
   }
    */
-let anonymous = function (a, b): number {
+let anonymous = function (a: number, b: number): number {
   return a + b;
 };
 let ann = anonymous(12, 12);

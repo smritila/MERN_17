@@ -1,13 +1,8 @@
-// declare a function with a return type
-/*
-  syntax : function func_name(parameter_list): return_type{
-  function body
-
-}
-  */
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function add(a, b) {
-  var r = a + b;
-  return r;
+    var r = a + b;
+    return r;
 }
 var result = add(15, 13);
 console.log(result);
@@ -19,7 +14,7 @@ console.log(result);
 
   */
 var sum = function (a, b) {
-  return a + b;
+    return a + b;
 };
 var result2 = sum(12, 14);
 console.log(result2);
@@ -30,7 +25,7 @@ console.log(result2);
   }
    */
 var anonymous = function (a, b) {
-  return a + b;
+    return a + b;
 };
 var ann = anonymous(12, 12);
 console.log(ann);

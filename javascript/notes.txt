@@ -234,3 +234,17 @@ synchronous operations-
   It is useful for data inter operability. Objects can not be transferred form one end point to the other.
   to convert object into json we use json.stringify()
   and to convert json to object we use json.parse()
+
+  async and await -   they are introduced in ES6 . they are used to simplify working with promises, providing more readable and synchronus looking way to handle promises.
+
+  async keyword is uded to declare any function as asynchronous which ensures the function will always return a promise. 
+  await keyword is used inside async function to pause the execution of the function untill the promise is resolved.
+  error handling  is simplier using try catch block compared to then and catch.
+Advantages of async and await-
+1.Improved readability.
+2.simplier syntax and error handling.
+
+disadvantages- 
+
+1. blocking execution
+2. error handling may become complex in large flows.
