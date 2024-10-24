@@ -10,7 +10,7 @@
 //body
 //}
 
-//return key word is used to return a value along with the controller from the called function to the callin function.
+//return key word is used to return a value along with the controller from the called function to the calling function.
 // static functions- these functions do not require object to be called . they can be called using class name.
 // they are declared using static keyword.
 // non static function- they require object to be called . they are declared without the static keyword.
