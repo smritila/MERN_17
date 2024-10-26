@@ -40,3 +40,10 @@ let smallbasket = bigBasket as Apple;
 smallbasket.fruitName();
 smallbasket.fruitcolor();
 smallbasket.fruitOrigin();
+
+
+// union and intersection in typescript helps you create complex types from the existing ones adding flexibility for various scenarios.
+// union type(|)-  It is like or operation.
+// when a variable is assigned as union it can store more than one type of value.
+// intersection(&)- it combines multiple types into one.It is like and operation.
+//ex- person as well as employees. 

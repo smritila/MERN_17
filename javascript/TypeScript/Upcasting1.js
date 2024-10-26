@@ -1,4 +1,3 @@
-"use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -14,28 +13,28 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-Object.defineProperty(exports, "__esModule", { value: true });
-var Vehicle = /** @class */ (function () {
-    function Vehicle() {
+var Father = /** @class */ (function () {
+    function Father() {
     }
-    return Vehicle;
+    Father.prototype.house = function () {
+        console.log("Father has a red house");
+    };
+    return Father;
 }());
-var Bike = /** @class */ (function (_super) {
-    __extends(Bike, _super);
-    function Bike() {
+var Son = /** @class */ (function (_super) {
+    __extends(Son, _super);
+    function Son() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    return Bike;
-}(Vehicle));
-//create a Bike type variable and store the Bike object in it.
-var bike1 = new Bike();
-bike1.color = "red";
-bike1.brand = "honda";
-bike1.model = "CBR";
-bike1.price = 10000000;
-bike1.wheels = 2;
-console.log(bike1.color);
-console.log(bike1.brand);
-console.log(bike1.model);
-console.log(bike1.price);
-console.log(bike1.wheels);
+    Son.prototype.house = function () {
+        console.log("son changes the house to blue house ");
+    };
+    Son.prototype.flat = function () {
+        console.log("Son has a flat");
+    };
+    return Son;
+}(Father));
+var son = new Son();
+son.house();
+var f = new Son();
+var s = f;
