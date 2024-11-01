@@ -1,0 +1,10 @@
+React js is  a frontend library which provides certain pre-built functions for FED.
+
+It is used to build single page application(SPA)
+can be included into our projects uing 2 ways.
+1. CDN Links- provide the CDN  links in<body> of html.
+2. Babal CDN link.
+- React js is not compatible with beowser because it is not traditional  js.. so, package helps browsers understand JSX code. (JAVASCRIPT :xml)
+AND 2 ND PROCESS IS USING  CREATE-REACT-application(CRA) OR create-vite-app(VITE framework for React js)
+
+

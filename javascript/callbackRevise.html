@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Callback Revision</h1>
+    <script>
+      function add(a, b, callSub) {
+        setTimeout(() => {
+          let r = a + b;
+          console.log("add result = " + r);
+          callSub(r, 4);
+        }, 1000);
+      }
+      function sub(addresult, b) {
+        let r = addresult - b;
+        console.log("sub result = " + r);
+      }
+      // i need to couple add() and sub()
+      //couple => join the two funcs
+      // join => pass the result of add() to sub()
+      add(10, 15, sub);
+    </script>
+  </body>
+</html>
