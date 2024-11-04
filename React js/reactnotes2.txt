@@ -1,0 +1,16 @@
+props-parameters passed to a component.
+
+state-  an object which holds key :value
+
+event handling in react js with respect to class compoent.
+1. binding event handlers-  in class components event handlers  must be bound to the curent instance( this keyword)
+2. this is done because "this" is not bounded to the object of the class and the function automatically.
+3.Binding is done inside this constructor.
+this.handleClick = this.handleClick.bind(this)
+4. this is the most common approach to bind the event handler.
+5. bind(this): is a method in javascript  that is used to set the value of "this" inside a function to a specific object.
+6. doing bind(this) is necessary in class component because the value of "this" can change depending on where the function is called.
+7. using bind(this) ensures that the method always refers to the current component.
+
+second way of binding using arrow functions-
+ since arrow functions are related to variables binding happens lexically because of which we need not bind the event handler in the constructor.

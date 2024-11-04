@@ -1,12 +1,42 @@
+// import "./App.css";
+// import Header from "./components/Header";
+// import Main from "./components/Main";
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <Header />
+//       <Main />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+// import logo from './logo.svg';
 import "./App.css";
-import Header from "./components/Header";
-import Main from "./components/Main";
+// import Header  from "./Components/Header";
+// import Main from "./Components/Main";
+// import FunctionComp from "./components/FunctionComp";
+// import ClassComp from "./components/ClassComp";
+// import FuncProp from "./components/FuncProp";
+// import ClassProp from "./components/CassProp";
+// import ClassState from "./components/ClassState";
+// import ClassEvent from "./concepts/ClassEvent";
+import ClassEvent2 from "./concepts/ClassEvent2";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
+      {/* <Header/> */}
+      {/* <Main/> */}
+      {/* <FunctionComp />
+      <ClassComp />
+      <FuncProp name="Smritikana" job="student" />
+      <ClassProp name="Rajinikanth" job="Actor, spiritual person" />
+      <ClassState /> */}
+      {/* <ClassEvent /> */}
+      <ClassEvent2 />
     </div>
   );
 }
