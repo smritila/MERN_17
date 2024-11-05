@@ -23,7 +23,9 @@ import "./App.css";
 // import ClassProp from "./components/CassProp";
 // import ClassState from "./components/ClassState";
 // import ClassEvent from "./concepts/ClassEvent";
-import ClassEvent2 from "./concepts/ClassEvent2";
+// import ClassEvent2 from "./concepts/ClassEvent2";
+// import { ClassEvent3 } from "./concepts/ClassEvent3";
+import Counter from "./concepts/Counter";
 
 function App() {
   return (
@@ -36,7 +38,9 @@ function App() {
       <ClassProp name="Rajinikanth" job="Actor, spiritual person" />
       <ClassState /> */}
       {/* <ClassEvent /> */}
-      <ClassEvent2 />
+      {/* <ClassEvent2 /> */}
+      {/* <ClassEvent3 /> */}
+      <Counter />
     </div>
   );
 }

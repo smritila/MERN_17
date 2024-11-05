@@ -11,7 +11,7 @@ class ClassEvent2 extends Component {
   }
   handleClick() {
     this.setState({
-      name: "Sarchin Tendulkar",
+      name: "Sachin Tendulkar",
     });
   }
   render() {
