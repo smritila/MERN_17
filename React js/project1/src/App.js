@@ -15,7 +15,12 @@
 
 // import logo from './logo.svg';
 import "./App.css";
-import { ClassEvent5 } from "./concepts/ClassEvent5";
+import ClassEvent4 from "./concepts/ClassEvent4";
+// import Formhandling from "./concepts/FormHandling";
+// import FunctionEvent from "./concepts/FunctionEvent";
+// import StateHook from "./concepts/StateHook";
+// import StateHook2 from "./concepts/StateHook2";
+// import { ClassEvent5 } from "./concepts/ClassEvent5";
 // import Header  from "./Components/Header";
 // import Main from "./Components/Main";
 // import FunctionComp from "./components/FunctionComp";
@@ -42,7 +47,12 @@ function App() {
       {/* <ClassEvent2 /> */}
       {/* <ClassEvent3 /> */}
       {/* <Counter /> */}
-      <ClassEvent5 />
+      {/* <ClassEvent5 /> */}
+      {/* <StateHook /> */}
+      {/* <StateHook2 /> */}
+      {/* <FunctionEvent /> */}
+      {/* <Formhandling /> */}
+      <ClassEvent4 />
     </div>
   );
 }
