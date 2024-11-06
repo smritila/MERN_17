@@ -14,3 +14,35 @@ this.handleClick = this.handleClick.bind(this)
 
 second way of binding using arrow functions-
  since arrow functions are related to variables binding happens lexically because of which we need not bind the event handler in the constructor.
+ 
+ event handling with respect to functional components- In functional components event handling is comparatively easy as the handler function is simply called when the event is trigerred. 
+ the handler function being a pert of functional component itself gets binded automatically.
+
+ form handling -the inputs given in form elements will be captured by the property called target of the event object. therefore we need to  de construct the target attribute as const  { form_input_name, value} = event.target
+ or let. 
+
+ example -
+ handleChange =(event) => {
+
+
+ }
+
+
+
+
+
+
+
+
+
+ where name captures the value given for the name attribute of the input element and value captures the input given in the input field.
+
+ to call the handler function  for form inputs use onChange attribute.
+
+ useState() Hook -
+ hooks are functions that allows us to use class component features inside functional component.
+
+ useState() is a function that allows the use of state object inside functional component.
+ it provided 2 properties - state variable, function to update state variable.
+ ex- const[color, setColor] = useState("red");
+ here color is state variable and setColor is function to update state. and red is default value.

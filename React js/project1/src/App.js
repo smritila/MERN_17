@@ -15,6 +15,7 @@
 
 // import logo from './logo.svg';
 import "./App.css";
+import { ClassEvent5 } from "./concepts/ClassEvent5";
 // import Header  from "./Components/Header";
 // import Main from "./Components/Main";
 // import FunctionComp from "./components/FunctionComp";
@@ -25,7 +26,7 @@ import "./App.css";
 // import ClassEvent from "./concepts/ClassEvent";
 // import ClassEvent2 from "./concepts/ClassEvent2";
 // import { ClassEvent3 } from "./concepts/ClassEvent3";
-import Counter from "./concepts/Counter";
+// import Counter from "./concepts/Counter";
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
       {/* <ClassEvent /> */}
       {/* <ClassEvent2 /> */}
       {/* <ClassEvent3 /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <ClassEvent5 />
     </div>
   );
 }
