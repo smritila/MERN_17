@@ -47,4 +47,3 @@ second way of binding using arrow functions-
  ex- const[color, setColor] = useState("red");
  here color is state variable and setColor is function to update state. and red is default value.
 
-// assignment - create a form component and then when u type something in the form field then it will count the characters and print the msg as I have entered n number of charcters(10) including the space and if you press back space then it will decrese the count and according it will display the msg.
