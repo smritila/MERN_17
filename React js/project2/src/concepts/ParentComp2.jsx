@@ -3,11 +3,14 @@ import ChildComp2 from "./ChildComp2";
 
 function ParentComp2() {
   let showMessage = (childData) => {
-    alert("data from child: " + childData);
+    document.getElementById("childspan").innerHTML = childData;
   };
   return (
     <div>
       <h2>I am Parent, will display data from child</h2>
+      <h3>
+        Showing child data: <span id="childspan"></span>
+      </h3>
       <ChildComp2 handleClick={showMessage} />
     </div>
   );
