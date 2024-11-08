@@ -47,3 +47,28 @@ second way of binding using arrow functions-
  ex- const[color, setColor] = useState("red");
  here color is state variable and setColor is function to update state. and red is default value.
 
+
+props drilling it is a concept where props(properties) are passed down from parent component to child component and subsequent deeper levels.
+It is essential to pass the data through multiple levels even if one deepest child requires the data.
+
+disadvantages of props drilling -
+ 1. code maintenance - As component hierarchy depens it becomes hard to maintain since every intermediate component as to handle props that it doesn't use.
+ 2. unnecessary re-renders. when the props changes at the top most level every component in the chain will re-render even if only one component is actually using the data.
+ 3.reduce redeabality- reading and understanding the code becoms hard as children level depens.
+
+ Avoiding props drilling-  React context api.
+ state management libraries such as redux.
+
+ parent child communication -
+ it refers to the  ways in which data can be passed from parent to child and vice versa.
+ parent to child- data is passed from parent to child using props.The child component can use these props to render or handle behaviour. 
+ child to parent- the parent component passess a call back function as a prop to the child.the child can call these function to trigger an action or send data to the parent.
+
+context API- It provides a way to share data accross multiple components without having to pass props manually through every level.
+when to use context api -multiple components needs access to global data such as user authentication, user data etc.
+
+how the context api works - 
+1. create a context using React.createContext()
+2. Provide context - use the Provider component to wrap a prt of your component tree , making the context data available to any child component.
+3. consuming context- components that need context data can use the context using 
+Context.Consumer() or React.useContext() hook
